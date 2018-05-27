@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alumfial1.appalumnos.views.FormActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_marginTop="120dp"
+        tools:layout_editor_absoluteY="186dp">
+
+        <EditText
+            android:id="@+id/dni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="dni del alumno"
+            android:inputType="number"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dni"
+            android:layout_margin="5dp"
+            android:hint="nombre del alumno"
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/apellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre"
+            android:layout_margin="5dp"
+            android:hint="apellido del alumno"
+            android:inputType="textPersonName"
+            android:padding="5dp" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_alumno"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="304dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alumfial1.appalumnos.views.ListarActivity">
+
+    <!--
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/Tabla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:id="@+id/Cabecera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/ColumnaAnio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Dni"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/ColumnaCiudad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:text="Nombre"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/ColumnaOro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="Apellido"
+                android:textColor="#005500"
+                android:textSize="26sp" />
+        </TableRow>
+    </TableLayout>
+    -->
+
+    <TextView
+        android:id="@+id/tv_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/new_alumno"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+</android.support.design.widget.CoordinatorLayout>
